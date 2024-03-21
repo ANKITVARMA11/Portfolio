@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+#Cover{
+    min-height: 180px;
+    width: 100%;
+    position:fixed;
+    z-index: -1;
+}
+
+#Name{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    width:max-content;
+    align-self: center;
+    position:fixed;
+    z-index: -1;
+}
+
+
+
+
+.skull{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#skull{
+    width: 100%;
+    /* display:grid; */
+}
+.skill_web{
+    width: 100%;
+    position: absolute;
+    display: inline;
+}
+.skills_top{
+    max-height: max-content;
+    position:relative;
+    top:100pt;
+    display:flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+.skills_bottom{
+    position:relative;
+    top:100pt;
+
+    display:flex;
+    justify-content: space-evenly;
+    align-self:flex-start;
+}
+div>h2{
+    color: white ;
+    font-size: 40px;
+    font: bold ;
+    font-stretch: wider;
+}
+.Design{
+    min-height: 100%;
+}
+.Design:hover{
+    color: white;
+    text-shadow: 10px 2px 10px;
+    transform: scale(1.2);
+    transition-duration: 500ms
+}
+
+
+.Web_Dev{
+    min-height: 100%;
+}
+.Web_Dev:hover{
+    color: black;
+    text-shadow: 10px 10px 10px;
+    stroke:black;
+    stroke-width: 20px;
+    transform: scale(1.2);
+    transition-duration: 500ms
+}
+
+.AI{
+    min-height: 100%;
+}
+.AI:hover{
+    transform: scale(1.2);
+    transition-duration: 500ms
+}
+
+.Research{
+    min-height: 100%;
+    /* display: flex;
+    justify-content: flex-end;
+    align-self:flex-end; */
+}
+.Research:hover{
+    transform: scale(1.2);
+    transition-duration: 500ms
+}
+
+div item{
+    color: aliceblue;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
